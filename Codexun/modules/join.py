@@ -17,7 +17,7 @@ from Codexun.tgcalls import client as USER
 async def addchannel(client, message):
     if message.sender_chat:
         return await message.reply_text(
-            "🔴 __You're an **Anonymous Admin**!__\n│\n╰ Revert back to user account from admin rights."
+            "🔴 __You're an **Anonymous Admin**!__\n│\n╰ Revert back to user account from admin rights!"
         )
     permission = "can_delete_messages"
     m = await adminsOnly(permission, message)
