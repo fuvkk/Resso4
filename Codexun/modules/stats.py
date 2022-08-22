@@ -60,7 +60,7 @@ stats1 = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="Assist 🙋🏻‍♂️", callback_data=f"assis_stats"
+                text="Assit 🙋🏻‍♂️", callback_data=f"assis_stats"
             ),
             InlineKeyboardButton(
                 text="Storage 🔋", callback_data=f"sto_stats"
